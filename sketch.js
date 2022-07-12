@@ -49,7 +49,7 @@ function draw() {
     sendPage.style("font-size: 30px"); 
     sendPage.position((windowWidth/2) - 200, windowHeight*0.6);
 
-    receivePage = createA('https://kellyyy666.github.io/kellyy66.github.io/_sendInfo/index.html?you='+you, 'Listener');
+    receivePage = createA('https://kellyyy666.github.io/kellyy66.github.io/sendinfo.html?you='+you, 'Listener');
     receivePage.style("font-size: 30px");
     receivePage.position((windowWidth/2) + 100, windowHeight*0.6);
 
