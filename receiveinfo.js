@@ -49,8 +49,8 @@ function setup() {
 
 
     /** added this in because it was altering the position of your video */
-    noCanvas();
-    //createCanvas(windowWidth, windowHeight);
+    //noCanvas();
+    createCanvas(windowWidth, windowHeight);
 
     dataServer.addListener({ message: readIncoming});
     dataServer.subscribe({ channels: [channelName] });
