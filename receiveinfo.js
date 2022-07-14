@@ -33,6 +33,7 @@ function setup() {
 
   vid = createVideo("116.mp4"); 
   vid.size(windowHeight,windowWidth); 
+  vid.position(100,0);
 
   playButton = createButton("Play");
   playButton.style("font-size: 40px");
@@ -62,7 +63,7 @@ function setup() {
   var changeButtonState = function(type) {
     
    if (mouseIsPressed == true) 
-    playvedio();}
+    playVedio();}
  
   
 function draw() {
