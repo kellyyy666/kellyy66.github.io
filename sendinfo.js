@@ -63,9 +63,6 @@ function draw() {
   textAlign(CENTER);
   text("Hello, " +you +".  Free leave comments to inputbox", 1130, 620);
   // text("Hello, " +you +".  Free leave comments to inputbox", windowWidth/2, windowHeight/2);
-  if (mouseIsPressed == true) {
-    sendTheMessage();
-  }
 }
 
 function appendValue1() {
