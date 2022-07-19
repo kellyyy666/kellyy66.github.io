@@ -5,3 +5,58 @@ body{
     justify-content: center;
 
 }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: linear-gradient(to left, #9c88ff, #3cabeb);
+    margin: 20px;   
+}
+
+ul {
+    list-style-type: none;
+    width: 95%;
+    height: 600px;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+li {
+    flex-shrink: 0; 
+    width: 80px;
+    height: 100%;
+    margin-right: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: width 0.6s ease-in;
+    background-size: cover;
+    backface-visibility: hidden; 
+}   
+
+li:hover {
+    flex:auto
+}
+
+li:nth-child(1) {
+    background-image: url("a1.jpg");
+}
+
+li:nth-child(2) {
+    background-image: url("a9.jpg");
+}
+
+li:nth-child(3) {
+    background-image: url("a3.jpg");
+}
+li:nth-child(4) {
+    background-image: url("a7.jpg");
+}
+
+li:nth-child(5) {
+    background-image: url("a8.jpg");
+}
